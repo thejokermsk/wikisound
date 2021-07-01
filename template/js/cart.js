@@ -10,9 +10,10 @@ class CartService {
 
     constructor() { }
 
-
     static cart = [];
-    static cartUrl = '/cart';
+
+    static cartUri = '/cart';
+
     static counterSelector = '';
     static priceProductFormattedSelector = '';
     static priceProductSelector = '';
